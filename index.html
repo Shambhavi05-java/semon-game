@@ -1,25 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="semongame.css">
-</head>
-<body>
-        <h1>Simon Says Game</h1>
-        <h2>Press  any kry to start the game</h2>
-       <h3></h3>
-        <div class="btn-container">
-            <div class="bx1">
-                <div class="btn red"  type="button" id="red">1</div>
-                <div class="btn yellow" type="button" id="yellow">2</div>
-            </div>
-            <div class="bx2">
-                <div class="btn green" type="button" id="green">3</div>
-                <div class="btn purple" type="button" id="purple">4</div>
-            </div>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Challenge your memory with Semon Memory Challenge, a colorful sequence-matching game."
+    />
+    <title>Semon Memory Challenge</title>
+    <link rel="stylesheet" href="semongame.css" />
+  </head>
+  <body>
+    <h1>Semon Memory Challenge</h1>
+
+    <h2>Ready to test your memory?</h2>
+    <p>Press any key to start the game.</p>
+
+    <h3></h3>
+
+    <div class="btn-container">
+      <div class="bx1">
+        <div class="btn red" type="button" id="red">1</div>
+        <div class="btn yellow" type="button" id="yellow">2</div>
+      </div>
+
+      <div class="bx2">
+        <div class="btn green" type="button" id="green">3</div>
+        <div class="btn purple" type="button" id="purple">4</div>
+      </div>
+    </div>
+
+    <section class="instructions">
+      <h2>How to Play</h2>
+      <ol>
+        <li>Press any key to begin.</li>
+        <li>Watch the color sequence carefully.</li>
+        <li>
+          Repeat the sequence by clicking the colored buttons in the same order.
+        </li>
+        <li>Each new level adds another step to remember.</li>
+        <li>One wrong move ends the game. Try again and beat your best!</li>
+      </ol>
+    </section>
+
+   
+
     <script src="semongame.js"></script>
-</body>
+  </body>
 </html>
